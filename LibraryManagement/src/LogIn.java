@@ -108,23 +108,21 @@ public class LogIn extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(204, 0, 51));
         jLabel4.setText("USERNAME");
 
-        jLabel6.setIcon(new javax.swing.ImageIcon("C:\\Users\\EXCALIBUR\\Desktop\\icons\\password (1).png")); // NOI18N
-
         jLabel5.setIcon(new javax.swing.ImageIcon("C:\\Users\\EXCALIBUR\\Desktop\\icons\\user.png")); // NOI18N
         jLabel5.setText("jLabel5");
 
         tbusername.setBackground(new java.awt.Color(0, 102, 51));
         tbusername.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        tbusername.setForeground(new java.awt.Color(255, 255, 255));
+        tbusername.setForeground(new java.awt.Color(0, 0, 0));
 
         tbpassword.setBackground(new java.awt.Color(0, 102, 51));
-        tbpassword.setForeground(new java.awt.Color(255, 255, 255));
+        tbpassword.setForeground(new java.awt.Color(0, 0, 0));
 
         jLabel8.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(204, 0, 51));
         jLabel8.setText("LogIn");
 
-        jButton1.setBackground(new java.awt.Color(0, 102, 51));
+        jButton1.setBackground(new java.awt.Color(102, 102, 102));
         jButton1.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         jButton1.setForeground(new java.awt.Color(204, 0, 51));
         jButton1.setText("Sign In");
@@ -176,12 +174,13 @@ public class LogIn extends javax.swing.JFrame {
                 .addGap(27, 27, 27)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addGap(7, 7, 7)
-                                .addComponent(tbusername, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(tbusername, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 41, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addGap(45, 45, 45)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
